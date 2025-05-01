@@ -1,0 +1,51 @@
+[33mcommit 29e8f65ada8fee4761ad3244552fc3d7ef4afd40[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32myuktha[m[33m)[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Thu May 1 18:13:30 2025 -0500
+
+    added gitignore
+
+[33mcommit ac1b7f051543b898e12c452d316c35a0536f9cb0[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Thu May 1 18:02:15 2025 -0500
+
+    finalized the tests.
+    Co-authored-by: Connor-cce <Connor-cce@users.noreply.github.com>
+
+[33mcommit 0bce5de2d0e58d7514c677ac6249bb9f1c0d1574[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Thu May 1 17:24:58 2025 -0500
+
+    Connected database and markov chain functionality.
+    Co-authored-by: Connor-cce <Connor-cce@users.noreply.github.com>
+    Co-authored-by: Sriram Natarajan <sriram6@illinois.edu>
+    Co-authored-by: SotoJosueAI44 <SotoJosueAI44@users.noreply.github.com>
+
+[33mcommit ee3221e0d14fd9c62054e63b6595eb2fa08efa68[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Wed Apr 30 16:42:41 2025 -0500
+
+    added files.
+
+[33mcommit e6ab8f404dbc34fdee3f14544122a3ea53fc2724[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Wed Apr 30 16:28:37 2025 -0500
+
+    added files.
+
+[33mcommit 5a06a00557d7681d3dcbc34ffa0e7e1fa41503d0[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Wed Apr 30 16:24:01 2025 -0500
+
+    added myenv.
+
+[33mcommit e5a06347069a38c3666e4b5e9c7db5f99b982dbf[m[33m ([m[1;31morigin/yuktha[m[33m)[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Wed Apr 30 16:11:24 2025 -0500
+
+    added Scores classes.
+
+[33mcommit f1842bc343ca67aa17dc07b15b795539163f32b6[m
+Author: yuktha <yuktha.kakolla13@gmail.com>
+Date:   Mon Apr 7 14:33:02 2025 -0500
+
+    initial commit on yuktha
