@@ -13,8 +13,8 @@ class predictor:
 
     def stringToArray(self, valueString):
         tempArr = valueString.split(",")
-        print(tempArr)
         for i in range(len(tempArr)):
+            print(f"in stringtoarray: {tempArr[i]}")
             tempArr[i] = float(tempArr[i])
         return tempArr
 
@@ -22,12 +22,12 @@ class predictor:
         self.mark[origin][current] += 1.0
 
     def pick(self, array):
-        self.maximum = max(array)
-        self.returnList = []
-        for i in range(3):
-            if array[i] >= self.maximum:
-                self.returnList.append(i)
-        return random.choice(self.returnList)
+        self.ranNum = float(random.randint(0,100)) / 100.0
+        print(self.ranNum)
+        print(array[0], array[1], array[2])
+        if self.ranNum >= 0.0 and self.ranNum < array[0]: return 0
+        elif self.ranNum >= (array[0]) and self.ranNum < (array[0] + array[1]): return 1
+        else: return 2
     
     def decipherMove(self, str):
         if str == "rock":

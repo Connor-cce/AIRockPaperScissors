@@ -46,8 +46,8 @@ print(f"Final — You: {player}, Computer: {computer}")
 #create a variable that stores the new 2d array of scores
 new_scores = decision_maker.getMark()
 #create three string variables that store each of the columns values
-new_r = "?, ?, ?", (new_scores[0][0],new_scores[0][1],new_scores[0][2])
-new_p = "?, ?, ?", (new_scores[1][0],new_scores[0][1],new_scores[0][2])
-new_s = "?, ?, ?", (new_scores[2][0],new_scores[2][1],new_scores[2][2])
+new_r = "" + str(new_scores[0][0]) + "," + str(new_scores[0][1]) + "," + str(new_scores[0][2])
+new_p = "" + str(new_scores[1][0]) + "," + str(new_scores[0][1]) + "," + str(new_scores[0][2])
+new_s = "" + str(new_scores[2][0]) + "," + str(new_scores[2][1]) + "," + str(new_scores[2][2])
 #update the database
 scores.update(new_r, new_p, new_s, name)

@@ -45,7 +45,7 @@ class Scores:
             )
             self.connection.commit()
     def update(self, rock, paper, scissors, name):
-        self.cursor.execute("UPDATE results SET r_start = ? WHERE player_id = ?", (rock, name,))
+        self.cursor.execute("UPDATE results SET r_start = ? WHERE player_id = ?", (rock, name))
         self.cursor.execute("UPDATE results SET p_start = ? WHERE player_id = ?", (paper, name,))
         self.cursor.execute("UPDATE results SET s_start = ? WHERE player_id = ?", (scissors, name,))
         self.connection.commit()
